@@ -1,0 +1,20 @@
+{
+  "name": "VoiceMailtoLINE",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "twilio-run",
+    "deploy": "twilio-run deploy"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^7.2.0",
+    "twilio": "^3.56"
+  },
+  "devDependencies": {
+    "twilio-run": "^2.6.0"
+  },
+  "engines": {
+    "node": "12"
+  }
+}
