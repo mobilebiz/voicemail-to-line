@@ -1,4 +1,3 @@
-const line = require("@line/bot-sdk");
 exports.handler = async function (context, event, callback) {
   try {
     console.log(`userId: ${event.events[0].source.userId}`);
